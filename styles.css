@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.supreme-container{
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-frame{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 15px solid white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hand{
+    height: 125px;
+    width: 5px;
+    background-color: black;
+    position: absolute;
+    left: 135px;
+    top: 10px;
+    transform-origin: bottom;
+}
+.shand{
+    transform: rotate(0deg);
+    width: 2px;
+}
+.mhand{
+    transform: rotate(0deg);
+}
+.hhand{
+    height: 80px;
+    top: 55px;
+    transform: rotate(0deg);
+}
